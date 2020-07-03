@@ -23,6 +23,8 @@
 业务上区分了两种概念：索引和索引的明细。在数据层面上，只有一种概念：索引。
 索引是一种树状结构的数据，有父子的继承性质。
 实体数据表：
+
 ![avatar][t_dictionary_entity]
+
 [t_dictionary_entity]:./imgs/t_dictionary.png
 
