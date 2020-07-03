@@ -1,5 +1,11 @@
 # 基础模板项目
 
+## 实体模型
+
+![avatar][database_model]
+[database_model]:./imgs/database.png
+
+
 ## 字典模块
 
 ### 模块说明
