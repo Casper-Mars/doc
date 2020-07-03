@@ -26,5 +26,5 @@
 
 ![avatar][t_dictionary_entity]
 
-[t_dictionary_entity]:./imgs/t_dictionary.png
+[t_dictionary_entity]: ./imgs/t_dictonary.png
 
