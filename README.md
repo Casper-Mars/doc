@@ -2,6 +2,8 @@
 
 ## 实体模型
 
+> 具体的说明参阅数据库设计文档
+
 ![avatar][database_model]
 
 [database_model]:./imgs/database.png
@@ -151,6 +153,11 @@
 * 使用disruptor高速队列。
 > Disruptor框架是一个本地的内存式环形队列，速度快且占用的内存少。使用这个框架是为了把读取解析和导入的逻辑解耦。现阶段还未做到利用多核cpu的优势进行多线程读取excel文件，但是起码可以做到多线程添加到数据库中。
 
+##### 导入引擎相关类图
+
+![avatar][template_import_model]
+
+[template_import_model]:./imgs/template_import_model.png
 
 ##### 导入流程
 
@@ -159,6 +166,7 @@
 ![avatar][import_process]
 
 [import_process]:./imgs/importExcelProcess.png
+
 
 
 
