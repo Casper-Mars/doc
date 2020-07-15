@@ -42,6 +42,9 @@
 
 实体数据表：
 
+![avatar][t_role]
+
+[t_role]:./imgs/t_role.png
 
 ### 2.3、核心逻辑
 
@@ -196,7 +199,37 @@
 
 [import_process]:./imgs/importExcelProcess.png
 
+## 6、组织架构
 
+### 6.1、模块说明
 
+此模块负责处理组织部门的信息。对用户提供管理的功能，对其他服务提供基础的服务接口。
+
+### 6.2、实体设计
+
+实体表：
+
+![avatar][t_department]
+
+[t_department]:./imgs/t_department.png
+
+与用户关联的实体表
+
+![avatar][t_user_department]
+
+[t_user_department]:./imgs/t_user_department.png
+
+### 6.3、核心逻辑
+
+#### 6.3.1、管理功能
+ 
+* 提供对组织信息的基本功能，包括增删查改。
+ 
+#### 6.3.2、服务接口
+
+* 添加/删除关联用户的信息记录
+* 查询指定组织下的所有用户记录
+* 查询用户所在的组织信息
+* 添加/修改/删除组织信息
 
 
